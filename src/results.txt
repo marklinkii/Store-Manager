@@ -1,0 +1,68 @@
+---------- Store ----------
+sweet: 3 Sugar Cookie, Fudge Brownie, Frozen Yogurt
+meat: 6 Beef Chuck, Bacon, Pork Spare Ribs, Pork Chops, Chunk Tuna, Ground Beef
+starch: 2 Potato Salad, SpaghettiO's
+vegetable: 0
+fruit: 2 Apples, Grapes
+---------- Orders ----------
+"Mike Cannan"
+Requests: sweet sweet fruit meat 
+-----
+"Vikki Vegan"
+Requests: vegetable vegetable fruit 
+-----
+"Suzie Martin"
+Requests: starch fruit starch starch meat 
+-----
+"Don Pillow"
+Requests: starch vegetable sweet fruit 
+-----
+"Manny Meatloaf"
+Requests: meat meat meat sweet 
+-----
+"Ted Barry"
+Requests: meat vegetable starch meat fruit 
+-----
+---------- Store ----------
+sweet: 0
+meat: 2 Pork Spare Ribs, Ground Beef
+starch: 0
+vegetable: 0
+fruit: 0
+---------- Orders ----------
+"Mike Cannan"
+Items:
+Sugar Cookie $1.5
+Fudge Brownie $4.99
+Apples $1.99
+Beef Chuck $4.99
+Total: $13.47
+-----
+"Vikki Vegan" - Unable to complete order
+Unfilled Requests: vegetable fruit vegetable 
+-----
+"Suzie Martin" (Partial)
+Unfilled requests: starch 
+Items:
+Potato Salad $3.59
+Grapes $1.58
+SpaghettiO's $0.98
+Bacon $4.29
+Total: $10.44
+-----
+"Don Pillow" (Partial)
+Unfilled requests: starch vegetable fruit 
+Items:
+Frozen Yogurt $2.59
+Total: $2.59
+-----
+"Manny Meatloaf" - Unable to complete order
+Unfilled Requests: meat meat meat sweet meat meat 
+-----
+"Ted Barry" (Partial)
+Unfilled requests: vegetable starch fruit 
+Items:
+Chunk Tuna $0.78
+Pork Chops $6.89
+Total: $7.67
+-----
