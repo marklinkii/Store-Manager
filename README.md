@@ -1,6 +1,6 @@
 ## Store-Manager
 
-This program takes two text documents, one for a store and one for customer orders, and creates a results file that prints the contents of the store after filling the orders as well as the status of all the orders.
+This program takes two text documents, one for a store and one for customer orders, and creates a results file that prints the contents of the store before and after filling the orders as well as the status of all the orders before and after being filled.
 
 To run this program, download all files, then navigate to the directory with the makefile on a command prompt. From here, type the command "make" to compile the program. Then, type the command "make run STORE=store.txt ORDERS=orders.txt". This will produce a results file that shows the status of the store and orders after all transactions. store.txt and orders.txt are provided, but they can be modified using the format defined below.
 
