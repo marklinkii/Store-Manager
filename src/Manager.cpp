@@ -59,7 +59,6 @@ void Manager::fillOrders(ostream &os) {
                     while(goBack != nullptr){
                         goBack = current->popFoodFromOrder();
                         if(goBack!=nullptr) {
-                            current->addUnfilled(goBack->getType());
                             m_store.addFood(goBack);
                         }
                     }
